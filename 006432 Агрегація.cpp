@@ -61,7 +61,7 @@ int main()
         department.add(w3);
         department.add(w4);
 
-        std::cout << "Працівники у відділі перед розформуванням:\n";
+        std::cout << "Працівники у відділі перед розформуванням:" << std::endl;
         for (const auto& worker : department.getWorkers()) {
             std::cout << worker->getName() << std::endl;
         }
